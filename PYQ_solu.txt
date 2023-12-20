@@ -1,5 +1,5 @@
 Q1: ans
-create a repo with name devops[230340127048]
+create a repo with name devops230940127052
 
 step 1: create repository online 
 step 2: intialize git repository
