@@ -1,0 +1,26 @@
+Q1: ans
+create a repo with name devops[230340127048]
+
+step 1: create repository online 
+step 2: intialize git repository
+step 3: clone the remote repository
+step 4: add python code 
+step 5: commit the changes
+step 6: push the changes to remote repository
+
+
+Q2: 
+step 1: create EC2 instance(ubuntu)
+step 2: connect using ssh
+step 3: apt update && apt upgrade -y
+step 4: apt install docker.io -y
+step 5: create directory
+step 6: create docker file, and html page
+step 7: 
+	FROM nginx
+	COPY ./index.html /usr/share/nignx/html/
+	
+step 8: docker build -t myapp:1.0 ./
+step 9: docker run --name c1 -d -p 80:80 myapp:1.0
+step 10: docker inspect c1 | grep ip address
+step 11: go to browser, paste container ip address	
